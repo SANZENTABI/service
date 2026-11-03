@@ -1,0 +1,3092 @@
+<!doctype html>
+<html lang="ja">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>地域の魅力を、届く力に。｜サンゼンエンジン</title>
+  <meta name="description" content="魅力的な地域やモノが、うまく伝わらない・知ってもらえない。そんな地域の課題を、見つける・整える・動かし続ける会社です。実績資料を無料でお送りします。">
+  <meta property="og:title" content="地域の魅力を、届く力に。｜サンゼンエンジン">
+  <meta property="og:description" content="地域の課題を、見つける・整える・動かし続ける。実績資料を無料でお送りします。">
+  <meta property="og:type" content="website">
+  <!-- <meta property="og:image" content="images/ogp.jpg"> -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;900&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --orange: #E95500;
+      --orange-dark: #C94700;
+      --orange-pale: #FFF4EC;
+      --orange-light: #F9C3A0;
+      --ink: #2A2A2A;
+      --ink-2: #555;
+      --ink-3: #888;
+      --beige: #F6F5F2;
+      --line: #E6E3DE;
+      --white: #fff;
+      --dark: #2A2A2A;
+      --radius: 8px;
+      --font: "Noto Sans JP", -apple-system, BlinkMacSystemFont, "Hiragino Sans", sans-serif;
+    }
+
+    *,
+    *::before,
+    *::after {
+      box-sizing: border-box
+    }
+
+    html {
+      scroll-behavior: smooth;
+      -webkit-text-size-adjust: 100%;
+      scroll-padding-top: 72px
+    }
+
+    body {
+      margin: 0;
+      font-family: var(--font);
+      color: var(--ink);
+      background: var(--white);
+      line-height: 1.75;
+      font-size: 15px
+    }
+
+    img {
+      max-width: 100%;
+      display: block
+    }
+
+    h1,
+    h2,
+    h3,
+    p,
+    ul,
+    ol,
+    dl,
+    dd {
+      margin: 0
+    }
+
+    ul,
+    ol {
+      padding: 0;
+      list-style: none
+    }
+
+    a {
+      color: inherit
+    }
+
+    button {
+      font: inherit;
+      color: inherit
+    }
+
+    .pc {
+      display: none
+    }
+
+    .inner {
+      width: 100%;
+      max-width: 1120px;
+      margin: 0 auto;
+      padding: 0 20px
+    }
+
+    @media (min-width:960px) {
+      .pc {
+        display: inline
+      }
+
+      .sp {
+        display: none
+      }
+
+      .inner {
+        padding: 0
+      }
+    }
+
+    @media (min-width:960px) and (max-width:1160px) {
+      .inner {
+        padding: 0 20px
+      }
+    }
+
+    /* ---------- ボタン ---------- */
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 14px;
+      min-height: 56px;
+      padding: 0 24px;
+      border-radius: 4px;
+      font-weight: 700;
+      font-size: 16px;
+      text-decoration: none;
+      border: 2px solid var(--orange);
+      transition: background .2s, color .2s, transform .1s;
+      cursor: pointer;
+      line-height: 1.4;
+      text-align: center
+    }
+
+    .btn--fill {
+      background: var(--orange);
+      color: #fff;
+      box-shadow: 0 4px 12px rgba(233, 85, 0, .25)
+    }
+
+    .btn--fill:hover {
+      background: var(--orange-dark);
+      border-color: var(--orange-dark)
+    }
+
+    .btn--line {
+      background: #fff;
+      color: var(--orange)
+    }
+
+    .btn--line:hover {
+      background: var(--orange-pale)
+    }
+
+    .btn:active {
+      transform: translateY(1px)
+    }
+
+    .btn:focus-visible {
+      outline: 3px solid var(--orange-light);
+      outline-offset: 3px
+    }
+
+    .btn .arrow {
+      font-size: 1.1em;
+      line-height: 1
+    }
+
+    .btn--block {
+      width: 100%
+    }
+
+    .btn--block-sp {
+      width: 100%
+    }
+
+    @media (min-width:960px) {
+      .btn--block-sp {
+        width: auto
+      }
+    }
+
+    /* ---------- 見出し ---------- */
+    .sec {
+      padding: 56px 0
+    }
+
+    .sec--beige {
+      background: var(--beige)
+    }
+
+    .sec--peach {
+      background: var(--orange-pale)
+    }
+
+    .sec-head {
+      text-align: center;
+      margin-bottom: 32px
+    }
+
+    .sec-head__en {
+      display: block;
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: .12em;
+      color: var(--orange)
+    }
+
+    .sec-head__ja {
+      font-size: 24px;
+      font-weight: 700;
+      line-height: 1.5;
+      margin-top: 4px
+    }
+
+    .sec-head__rule {
+      display: block;
+      width: 48px;
+      height: 3px;
+      background: var(--orange);
+      margin: 12px auto 0;
+      border-radius: 2px
+    }
+
+    .sec-head__lead {
+      font-size: 14px;
+      color: var(--ink-2);
+      margin-top: 16px;
+      line-height: 1.9
+    }
+
+    @media (min-width:960px) {
+      .sec {
+        padding: 120px 0
+      }
+
+      .sec-head {
+        margin-bottom: 48px
+      }
+
+      .sec-head__en {
+        font-size: 14px
+      }
+
+      .sec-head__ja {
+        font-size: 36px;
+        margin-top: 8px
+      }
+
+      .sec-head__lead {
+        font-size: 15px
+      }
+    }
+
+    /* ---------- ヘッダー ---------- */
+    .header {
+      position: sticky;
+      top: 0;
+      z-index: 50;
+      background: #fff;
+      border-bottom: 1px solid var(--line)
+    }
+
+    .header__in {
+      height: 64px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 20px;
+      max-width: 1120px;
+      margin: 0 auto
+    }
+
+    .logo {
+      display: block;
+      width: 92px;
+      height: 26px;
+      text-decoration: none
+    }
+
+    .logo img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain
+    }
+
+    .logo-text {
+      display: flex;
+      flex-direction: column;
+      color: var(--orange);
+      font-weight: 900;
+      font-size: 20px;
+      line-height: 1;
+      letter-spacing: .1em;
+      text-decoration: none
+    }
+
+    .logo-text small {
+      font-size: 9px;
+      font-weight: 500;
+      letter-spacing: .08em;
+      margin-top: 2px
+    }
+
+    .gnav {
+      display: none
+    }
+
+    .menu-btn {
+      width: 44px;
+      height: 44px;
+      margin-right: -4px;
+      border: 0;
+      background: none;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 5px;
+      cursor: pointer
+    }
+
+    .menu-btn span {
+      display: block;
+      width: 20px;
+      height: 2px;
+      background: var(--ink);
+      border-radius: 1px
+    }
+
+    @media (min-width:960px) {
+      .header__in {
+        height: 83px;
+        padding: 0
+      }
+
+      .logo {
+        width: 120px;
+        height: 34px
+      }
+
+      .gnav {
+        display: flex;
+        align-items: center;
+        gap: 32px
+      }
+
+      .gnav__list {
+        display: flex;
+        gap: 32px;
+        font-size: 14px;
+        font-weight: 500
+      }
+
+      .gnav__list a {
+        text-decoration: none
+      }
+
+      .gnav__list a:hover {
+        color: var(--orange)
+      }
+
+      .gnav__cta {
+        display: flex;
+        gap: 12px
+      }
+
+      .gnav__cta .btn {
+        min-height: 42px;
+        padding: 0 20px;
+        font-size: 14px;
+        box-shadow: none
+      }
+
+      .menu-btn {
+        display: none
+      }
+    }
+
+    @media (min-width:960px) and (max-width:1160px) {
+      .header__in {
+        padding: 0 20px
+      }
+
+      .gnav,
+      .gnav__list {
+        gap: 20px
+      }
+    }
+
+    /* ハンバーガーメニュー */
+    .drawer {
+      position: fixed;
+      inset: 0;
+      z-index: 100;
+      background: #fff;
+      transform: translateX(100%);
+      transition: transform .3s ease;
+      display: flex;
+      flex-direction: column;
+      overflow-y: auto;
+      visibility: hidden
+    }
+
+    .drawer.is-open {
+      transform: none;
+      visibility: visible
+    }
+
+    .drawer__head {
+      height: 61px;
+      flex-shrink: 0;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 20px;
+      border-bottom: 1px solid var(--line)
+    }
+
+    .drawer__close {
+      width: 44px;
+      height: 44px;
+      margin-right: -8px;
+      border: 0;
+      background: none;
+      font-size: 22px;
+      cursor: pointer
+    }
+
+    .drawer__list {
+      padding: 0 20px
+    }
+
+    .drawer__list a {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      height: 52px;
+      border-bottom: 1px solid var(--line);
+      text-decoration: none;
+      font-weight: 500;
+      font-size: 15px
+    }
+
+    .drawer__list a span {
+      color: var(--orange)
+    }
+
+    .drawer__cta {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      padding: 24px 20px 40px
+    }
+
+    @media (min-width:960px) {
+      .drawer {
+        display: none
+      }
+    }
+
+    /* ---------- FV ---------- */
+    .fv {
+      position: relative;
+      background: #EBC79E url("images/hero.jpg") center/cover no-repeat
+    }
+
+    .fv::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: rgba(255, 248, 240, .45)
+    }
+
+    .fv__in {
+      position: relative;
+      padding-top: 28px;
+      padding-bottom: 40px
+    }
+
+    .fv h1 {
+      font-size: 34px;
+      font-weight: 700;
+      line-height: 1.45;
+      letter-spacing: .02em
+    }
+
+    .fv__lead {
+      margin-top: 20px;
+      font-size: 14px;
+      line-height: 2;
+      color: var(--ink-2)
+    }
+
+    .fv__cta {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      margin-top: 24px
+    }
+
+    @media (min-width:960px) {
+      .fv__in {
+        min-height: 572px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-top: 40px;
+        padding-bottom: 56px
+      }
+
+      .fv h1 {
+        font-size: 56px;
+        line-height: 1.5
+      }
+
+      .fv__lead {
+        font-size: 16px;
+        margin-top: 28px
+      }
+
+      .fv__cta {
+        flex-direction: row;
+        gap: 16px;
+        margin-top: 40px
+      }
+
+      .fv__cta .btn {
+        min-height: 64px;
+        min-width: 300px;
+        font-size: 17px
+      }
+
+      .fv__cta .btn--fill {
+        min-width: 336px
+      }
+    }
+
+    /* ---------- お悩み ---------- */
+    .problems {
+      display: flex;
+      flex-direction: column;
+      gap: 12px
+    }
+
+    .problem {
+      background: #fff;
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      padding: 14px 16px 14px 10px;
+      display: flex;
+      gap: 16px;
+      align-items: center
+    }
+
+    .problem__ill {
+      flex-shrink: 0;
+      width: 92px;
+      height: 92px;
+      border-radius: 50%;
+      background: var(--orange-pale);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden
+    }
+
+    .problem__ill img {
+      width: 78%;
+      height: 78%;
+      object-fit: contain
+    }
+
+    .problem h3 {
+      font-size: 17px;
+      font-weight: 700;
+      line-height: 1.5
+    }
+
+    .problem p {
+      font-size: 13px;
+      color: var(--ink-2);
+      margin-top: 6px;
+      line-height: 1.8
+    }
+
+    .solve {
+      text-align: center;
+      margin-top: 28px
+    }
+
+    .solve__tri {
+      width: 44px;
+      height: 20px;
+      margin: 0 auto;
+      background: var(--orange);
+      clip-path: polygon(0 0, 100% 0, 50% 100%)
+    }
+
+    .solve p {
+      margin-top: 20px;
+      font-size: 19px;
+      font-weight: 700;
+      line-height: 1.6
+    }
+
+    .solve em {
+      font-style: normal;
+      color: var(--orange)
+    }
+
+    @media (min-width:960px) {
+      .problems {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 24px
+      }
+
+      .problem {
+        flex-direction: column;
+        text-align: center;
+        padding: 41px 32px 40px;
+        gap: 16px
+      }
+
+      .problem__ill {
+        width: 150px;
+        height: 150px
+      }
+
+      .problem h3 {
+        font-size: 20px
+      }
+
+      .problem p {
+        font-size: 14px;
+        margin-top: 8px
+      }
+
+      .solve {
+        margin-top: 76px
+      }
+
+      .solve__tri {
+        width: 64px;
+        height: 28px
+      }
+
+      .solve p {
+        margin-top: 20px;
+        font-size: 28px
+      }
+    }
+
+    /* ---------- サービス ---------- */
+    .services {
+      display: flex;
+      flex-direction: column;
+      gap: 16px
+    }
+
+    .service {
+      background: var(--beige);
+      border-top: 4px solid var(--orange);
+      border-radius: 0 0 var(--radius) var(--radius);
+      padding: 28px 24px 28px
+    }
+
+    .service__label {
+      display: flex;
+      justify-content: space-between;
+      align-items: center
+    }
+
+    .service__tag {
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: .06em;
+      color: var(--orange)
+    }
+
+    .service__no {
+      font-size: 44px;
+      font-weight: 700;
+      color: var(--orange-light);
+      line-height: 1;
+      letter-spacing: .02em
+    }
+
+    .service h3 {
+      font-size: 21px;
+      font-weight: 700;
+      margin-top: 12px;
+      line-height: 1.5
+    }
+
+    .service__text {
+      font-size: 14px;
+      color: var(--ink-2);
+      margin-top: 12px;
+      line-height: 1.9
+    }
+
+    .service__list {
+      border-top: 1px solid var(--line);
+      margin-top: 16px;
+      padding-top: 16px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px
+    }
+
+    .check {
+      display: flex;
+      gap: 10px;
+      font-size: 14px;
+      font-weight: 700;
+      line-height: 1.7
+    }
+
+    .check::before {
+      content: "✓";
+      color: var(--orange);
+      font-weight: 700;
+      flex-shrink: 0
+    }
+
+    .check--normal {
+      font-weight: 400
+    }
+
+    @media (min-width:960px) {
+      .services {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 24px
+      }
+
+      .service {
+        padding: 40px 32px 32px
+      }
+
+      .service__no {
+        font-size: 48px
+      }
+
+      .service h3 {
+        font-size: 22px;
+        margin-top: 16px
+      }
+
+      .service__text {
+        font-size: 15px;
+        margin-top: 16px
+      }
+    }
+
+    /* ---------- 導入事例 ---------- */
+    .stats {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 10px
+    }
+
+    .stat {
+      background: #fff;
+      border-radius: var(--radius);
+      padding: 18px 8px 16px;
+      text-align: center
+    }
+
+    .stat__label {
+      font-size: 12px;
+      font-weight: 500
+    }
+
+    .stat__num {
+      font-size: 34px;
+      font-weight: 900;
+      color: var(--orange);
+      line-height: 1.2;
+      margin-top: 6px;
+      letter-spacing: .01em
+    }
+
+    .stat__num small {
+      font-size: 15px;
+      font-weight: 700
+    }
+
+    .stat__note {
+      font-size: 11px;
+      color: var(--ink-3);
+      margin-top: 4px;
+      line-height: 1.5
+    }
+
+    .stats-note {
+      font-size: 12px;
+      color: var(--ink-3);
+      margin-top: 12px;
+      line-height: 1.8
+    }
+
+    .cases {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      margin-top: 28px
+    }
+
+    .case {
+      background: #fff;
+      border-radius: var(--radius);
+      padding: 24px 20px
+    }
+
+    .tag {
+      display: inline-block;
+      padding: 2px 10px;
+      border-radius: 2px;
+      background: var(--orange-pale);
+      color: var(--orange);
+      font-size: 12px;
+      font-weight: 700
+    }
+
+    .case h3 {
+      font-size: 18px;
+      font-weight: 700;
+      line-height: 1.6;
+      margin-top: 12px
+    }
+
+    .case p {
+      font-size: 13px;
+      color: var(--ink-2);
+      margin-top: 8px
+    }
+
+    .others {
+      background: #fff;
+      border-radius: var(--radius);
+      padding: 24px 20px;
+      margin-top: 24px
+    }
+
+    .others h3 {
+      font-size: 18px;
+      font-weight: 700
+    }
+
+    .others ul {
+      margin-top: 16px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px
+    }
+
+    .others li {
+      position: relative;
+      padding-left: 20px;
+      font-size: 13px;
+      line-height: 1.8;
+      color: var(--ink-2)
+    }
+
+    .others li::before {
+      content: "";
+      position: absolute;
+      left: 2px;
+      top: .62em;
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: var(--orange)
+    }
+
+    @media (min-width:960px) {
+      .stats {
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+        gap: 24px
+      }
+
+      .stat {
+        padding: 28px 16px 30px
+      }
+
+      .stat__label {
+        font-size: 13px
+      }
+
+      .stat__num {
+        font-size: 48px;
+        margin-top: 8px
+      }
+
+      .stat__num small {
+        font-size: 20px
+      }
+
+      .stat__note {
+        font-size: 12px;
+        margin-top: 6px
+      }
+
+      .stats-note {
+        display: none
+      }
+
+      .cases {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 24px;
+        margin-top: 56px
+      }
+
+      .case {
+        padding: 32px 32px 40px
+      }
+
+      .case h3 {
+        font-size: 22px;
+        margin-top: 16px
+      }
+
+      .case p {
+        font-size: 14px;
+        margin-top: 12px
+      }
+
+      .others {
+        padding: 32px 40px 36px;
+        margin-top: 56px
+      }
+
+      .others h3 {
+        font-size: 20px
+      }
+
+      .others ul {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 12px 48px;
+        margin-top: 20px
+      }
+    }
+
+    /* ---------- 料金プラン ---------- */
+    .plans {
+      display: flex;
+      flex-direction: column;
+      gap: 20px
+    }
+
+    .plan {
+      position: relative;
+      background: #fff;
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      padding: 28px 22px 24px;
+      display: flex;
+      flex-direction: column
+    }
+
+    .plan--rec {
+      border: 2px solid var(--orange);
+      padding-top: 56px;
+      box-shadow: 0 6px 20px rgba(233, 85, 0, .12)
+    }
+
+    .plan__badge {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 36px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: var(--orange);
+      color: #fff;
+      font-size: 13px;
+      font-weight: 700;
+      letter-spacing: .1em;
+      border-radius: 5px 5px 0 0
+    }
+
+    .plan h3 {
+      font-size: 20px;
+      font-weight: 700;
+      line-height: 1.6
+    }
+
+    .plan__lead {
+      font-size: 13px;
+      font-weight: 700;
+      color: var(--orange);
+      margin-top: 12px;
+      line-height: 1.7;
+      padding-bottom: 16px;
+      border-bottom: 1px solid var(--line)
+    }
+
+    .plan__label {
+      font-size: 12px;
+      color: var(--ink-3);
+      margin-top: 16px
+    }
+
+    .plan__list {
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+      margin-top: 8px
+    }
+
+    .plan__list .check {
+      font-size: 14px;
+      font-weight: 400
+    }
+
+    .plan__for {
+      background: var(--beige);
+      border-radius: 4px;
+      padding: 16px;
+      margin-top: 20px
+    }
+
+    .plan__for-title {
+      font-size: 13px;
+      font-weight: 700;
+      color: var(--orange)
+    }
+
+    .plan__for p {
+      font-size: 13px;
+      margin-top: 6px;
+      line-height: 1.8
+    }
+
+    .plans-note {
+      font-size: 12px;
+      color: var(--ink-3);
+      margin-top: 24px;
+      line-height: 1.8
+    }
+
+    .cta-pair {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      margin-top: 24px
+    }
+
+    @media (min-width:960px) {
+      .plans {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 24px;
+        align-items: stretch
+      }
+
+      .plan {
+        padding: 32px 32px 32px
+      }
+
+      .plans {
+        margin-top: 64px
+      }
+
+      .plan--rec {
+        padding-top: 31px;
+        border-radius: 0 0 var(--radius) var(--radius)
+      }
+
+      .plan__badge {
+        top: auto;
+        bottom: 100%;
+        left: -2px;
+        right: -2px;
+        height: 40px;
+        font-size: 14px;
+        border-radius: 6px 6px 0 0
+      }
+
+      .plan h3 {
+        font-size: 22px
+      }
+
+      .plan__lead {
+        font-size: 14px
+      }
+
+      .plans-note {
+        text-align: center;
+        margin-top: 40px
+      }
+
+      .cta-pair {
+        flex-direction: row;
+        justify-content: center;
+        gap: 16px;
+        margin-top: 40px
+      }
+
+      .cta-pair .btn {
+        min-height: 64px;
+        min-width: 336px;
+        font-size: 17px
+      }
+    }
+
+    /* ---------- お試しプラン ---------- */
+    .trial-top {
+      border-radius: var(--radius);
+      overflow: hidden;
+      background: #fff;
+      box-shadow: 0 6px 24px rgba(0, 0, 0, .06)
+    }
+
+    .trial-price {
+      background: var(--orange);
+      color: #fff;
+      text-align: center;
+      padding: 24px 20px
+    }
+
+    .trial-price__sub {
+      font-size: 15px;
+      font-weight: 700
+    }
+
+    .trial-price__main {
+      font-size: 52px;
+      font-weight: 900;
+      line-height: 1.2;
+      margin-top: 4px;
+      letter-spacing: .02em
+    }
+
+    .trial-price__main small {
+      font-size: 17px;
+      font-weight: 700
+    }
+
+    .trial-price__main span {
+      font-size: 14px;
+      font-weight: 500;
+      opacity: .9
+    }
+
+    .trial-price__pill {
+      display: inline-block;
+      background: #fff;
+      color: var(--orange);
+      font-size: 13px;
+      font-weight: 700;
+      border-radius: 999px;
+      padding: 6px 16px;
+      margin-top: 12px
+    }
+
+    .trial-can {
+      padding: 24px 20px 28px
+    }
+
+    .trial-can h3,
+    .trial-card h3 {
+      font-size: 18px;
+      font-weight: 700
+    }
+
+    .trial-can ul {
+      margin-top: 14px;
+      display: flex;
+      flex-direction: column;
+      gap: 8px
+    }
+
+    .trial-cards {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+      margin-top: 20px
+    }
+
+    .trial-card {
+      background: #fff;
+      border-radius: var(--radius);
+      padding: 24px 20px
+    }
+
+    .weeks {
+      margin-top: 14px;
+      display: flex;
+      flex-direction: column;
+      gap: 14px
+    }
+
+    .week dt {
+      font-size: 13px;
+      font-weight: 700;
+      color: var(--orange)
+    }
+
+    .week dd {
+      font-size: 14px;
+      line-height: 1.7;
+      margin-top: 2px
+    }
+
+    .deliverables {
+      margin-top: 14px;
+      display: flex;
+      flex-direction: column;
+      gap: 12px
+    }
+
+    .deliverable {
+      background: var(--beige);
+      border-radius: 4px;
+      padding: 16px
+    }
+
+    .deliverable b {
+      display: block;
+      font-size: 14px;
+      line-height: 1.6
+    }
+
+    .deliverable span {
+      display: block;
+      font-size: 13px;
+      color: var(--ink-2);
+      margin-top: 6px;
+      line-height: 1.7
+    }
+
+    .trial-card ul {
+      margin-top: 14px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px
+    }
+
+    .trial-card__note {
+      font-size: 12px;
+      color: var(--ink-3);
+      margin-top: 14px;
+      line-height: 1.7
+    }
+
+    .bonus {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      background: #fff;
+      border: 2px solid var(--orange);
+      border-radius: var(--radius);
+      padding: 20px;
+      margin-top: 20px
+    }
+
+    .bonus__tag {
+      align-self: flex-start;
+      background: var(--orange);
+      color: #fff;
+      font-size: 13px;
+      font-weight: 700;
+      padding: 4px 12px;
+      border-radius: 2px
+    }
+
+    .bonus p {
+      font-size: 14px;
+      font-weight: 700;
+      line-height: 1.8
+    }
+
+    .bonus em {
+      font-style: normal;
+      color: var(--orange)
+    }
+
+    .notes {
+      margin-top: 24px
+    }
+
+    .notes h4 {
+      font-size: 13px;
+      font-weight: 700;
+      margin: 0
+    }
+
+    .notes ul {
+      margin-top: 6px
+    }
+
+    .notes li {
+      font-size: 12px;
+      color: var(--ink-3);
+      line-height: 1.8;
+      margin-top: 4px
+    }
+
+    .trial-cta {
+      margin-top: 28px;
+      text-align: center
+    }
+
+    @media (min-width:960px) {
+      .trial-top {
+        display: grid;
+        grid-template-columns: 400px minmax(0, 1fr)
+      }
+
+      .trial-price {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 40px
+      }
+
+      .trial-price__sub {
+        font-size: 17px
+      }
+
+      .trial-price__main {
+        font-size: 60px
+      }
+
+      .trial-can {
+        padding: 44px 48px 48px
+      }
+
+      .trial-can h3 {
+        font-size: 20px
+      }
+
+      .trial-can .check {
+        font-size: 15px
+      }
+
+      .trial-cards {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 24px;
+        margin-top: 40px
+      }
+
+      .trial-card {
+        padding: 32px
+      }
+
+      .trial-card h3 {
+        font-size: 18px
+      }
+
+      .bonus {
+        flex-direction: row;
+        align-items: center;
+        gap: 24px;
+        padding: 28px 40px;
+        margin-top: 40px
+      }
+
+      .bonus__tag {
+        align-self: auto;
+        flex-shrink: 0
+      }
+
+      .bonus p {
+        font-size: 17px
+      }
+
+      .notes {
+        margin-top: 40px
+      }
+
+      .trial-cta {
+        margin-top: 40px
+      }
+
+      .trial-cta .btn {
+        min-height: 64px;
+        min-width: 320px;
+        font-size: 17px
+      }
+    }
+
+    /* ---------- FAQ ---------- */
+    .faqs {
+      max-width: 800px;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      gap: 10px
+    }
+
+    .faq {
+      background: var(--beige);
+      border-radius: var(--radius);
+      overflow: hidden
+    }
+
+    .faq__q {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      padding: 16px;
+      background: none;
+      border: 0;
+      text-align: left;
+      cursor: pointer;
+      font-weight: 700;
+      font-size: 15px;
+      line-height: 1.6
+    }
+
+    .faq__q:focus-visible {
+      outline: 3px solid var(--orange-light);
+      outline-offset: -3px
+    }
+
+    .faq__mark {
+      flex-shrink: 0;
+      font-size: 20px;
+      font-weight: 900;
+      color: var(--orange);
+      width: 20px;
+      text-align: center
+    }
+
+    .faq__qtext {
+      flex-grow: 1
+    }
+
+    .faq__icon {
+      flex-shrink: 0;
+      width: 20px;
+      text-align: center;
+      font-size: 20px;
+      color: var(--orange);
+      font-weight: 400
+    }
+
+    .faq__a {
+      display: none;
+      gap: 12px;
+      padding: 16px 16px 20px;
+      border-top: 1px solid var(--line);
+      background: #fff
+    }
+
+    .faq.is-open .faq__a {
+      display: flex
+    }
+
+    .faq__a .faq__mark {
+      color: var(--ink)
+    }
+
+    .faq__a p {
+      font-size: 14px;
+      line-height: 1.9;
+      color: var(--ink-2)
+    }
+
+    @media (min-width:960px) {
+      .faqs {
+        gap: 12px
+      }
+
+      .faq__q {
+        padding: 24px 28px;
+        font-size: 16px;
+        gap: 16px
+      }
+
+      .faq__a {
+        padding: 20px 28px 28px;
+        gap: 16px
+      }
+
+      .faq__a p {
+        font-size: 15px
+      }
+    }
+
+    /* ---------- 資料請求・お問い合わせ ---------- */
+    .contact-grid {
+      display: flex;
+      flex-direction: column;
+      gap: 20px
+    }
+
+    .learn {
+      background: #fff;
+      border-radius: var(--radius);
+      padding: 24px 20px
+    }
+
+    .learn__head {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-size: 18px;
+      font-weight: 700;
+      padding-bottom: 16px;
+      border-bottom: 1px solid var(--line)
+    }
+
+    .free {
+      background: var(--orange);
+      color: #fff;
+      font-size: 12px;
+      font-weight: 700;
+      padding: 2px 8px;
+      border-radius: 2px
+    }
+
+    .learn li {
+      display: flex;
+      gap: 16px;
+      padding: 16px 0;
+      border-bottom: 1px solid var(--line)
+    }
+
+    .learn li:last-child {
+      border-bottom: 0;
+      padding-bottom: 0
+    }
+
+    .learn__no {
+      flex-shrink: 0;
+      width: 36px;
+      height: 36px;
+      border-radius: 50%;
+      background: var(--orange-pale);
+      color: var(--orange);
+      font-size: 13px;
+      font-weight: 700;
+      display: flex;
+      align-items: center;
+      justify-content: center
+    }
+
+    .learn li b {
+      display: block;
+      font-size: 15px
+    }
+
+    .learn li div>span {
+      display: block;
+      font-size: 13px;
+      color: var(--ink-2);
+      margin-top: 4px;
+      line-height: 1.7
+    }
+
+    .form-card {
+      background: #fff;
+      border-radius: var(--radius);
+      padding: 12px 4px 20px
+    }
+
+    .gform {
+      display: block;
+      width: 100%;
+      height: 2050px;
+      border: 0;
+      background: #fff
+    }
+
+    .form-card .form-note {
+      text-align: center;
+      padding: 0 16px
+    }
+
+    .form-card .form-note a {
+      color: var(--orange)
+    }
+
+    .form-intro {
+      font-size: 14px;
+      font-weight: 500
+    }
+
+    .field {
+      margin-top: 24px;
+      border: 0;
+      padding: 0;
+      min-width: 0
+    }
+
+    .field__label {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 14px;
+      font-weight: 700;
+      padding: 0
+    }
+
+    .req,
+    .opt {
+      font-size: 11px;
+      font-weight: 700;
+      padding: 1px 6px;
+      border-radius: 2px;
+      line-height: 1.5
+    }
+
+    .req {
+      background: var(--orange);
+      color: #fff
+    }
+
+    .opt {
+      background: #E9E6E1;
+      color: var(--ink-2)
+    }
+
+    .field__sub {
+      font-size: 12px;
+      font-weight: 400;
+      color: var(--ink-3)
+    }
+
+    .input {
+      width: 100%;
+      margin-top: 8px;
+      height: 50px;
+      padding: 0 14px;
+      border: 1px solid #D6D2CC;
+      border-radius: 4px;
+      font: inherit;
+      font-size: 16px;
+      background: #fff
+    }
+
+    textarea.input {
+      height: 140px;
+      padding: 12px 14px;
+      resize: vertical;
+      line-height: 1.7
+    }
+
+    .input:focus {
+      outline: none;
+      border-color: var(--orange);
+      box-shadow: 0 0 0 3px rgba(233, 85, 0, .15)
+    }
+
+    .input::placeholder {
+      color: #AAA
+    }
+
+    .purpose {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 10px;
+      margin-top: 8px
+    }
+
+    .purpose label {
+      display: flex;
+      gap: 12px;
+      padding: 16px;
+      border: 1px solid #D6D2CC;
+      border-radius: 6px;
+      cursor: pointer;
+      background: #fff;
+      transition: border-color .2s, background .2s
+    }
+
+    .purpose label:has(input:checked) {
+      border: 2px solid var(--orange);
+      background: var(--orange-pale);
+      padding: 15px
+    }
+
+    .purpose input {
+      accent-color: var(--orange);
+      width: 20px;
+      height: 20px;
+      margin: 2px 0 0;
+      flex-shrink: 0
+    }
+
+    .purpose b {
+      display: block;
+      font-size: 15px;
+      line-height: 1.6
+    }
+
+    .purpose small {
+      display: block;
+      font-size: 12px;
+      color: var(--ink-2);
+      margin-top: 4px;
+      line-height: 1.7
+    }
+
+    .choices {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px 24px;
+      margin-top: 10px
+    }
+
+    .choices label {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 14px;
+      cursor: pointer
+    }
+
+    .choices input,
+    .agree input {
+      accent-color: var(--orange);
+      width: 18px;
+      height: 18px;
+      margin: 0
+    }
+
+    .agree {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin-top: 28px;
+      font-size: 14px;
+      cursor: pointer
+    }
+
+    .agree a {
+      color: var(--orange)
+    }
+
+    .form-submit {
+      margin-top: 28px
+    }
+
+    .form-note {
+      font-size: 12px;
+      color: var(--ink-3);
+      margin-top: 12px;
+      line-height: 1.8
+    }
+
+    .form-error {
+      display: none;
+      font-size: 13px;
+      color: #C62828;
+      margin-top: 12px
+    }
+
+    .form-error.is-show {
+      display: block
+    }
+
+    @media (min-width:960px) {
+      .contact-grid {
+        display: grid;
+        grid-template-columns: 400px minmax(0, 1fr);
+        gap: 40px;
+        align-items: start
+      }
+
+      .learn {
+        padding: 36px 32px 40px
+      }
+
+      .learn__head {
+        font-size: 20px
+      }
+
+      .form-card {
+        padding: 32px 20px 32px
+      }
+
+      .gform {
+        height: 1720px
+      }
+
+      .purpose {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 16px
+      }
+
+      .form-submit .btn {
+        min-height: 64px;
+        font-size: 17px
+      }
+    }
+
+    /* ---------- フッター ---------- */
+    .footer {
+      background: var(--dark);
+      color: #fff;
+      padding: 48px 0 96px
+    }
+
+    .footer__grid {
+      display: flex;
+      flex-direction: column;
+      gap: 40px
+    }
+
+    .footer__logo {
+      display: block;
+      width: 120px;
+      height: 34px;
+      text-decoration: none;
+      transition: opacity .2s
+    }
+
+    .footer__logo:hover {
+      opacity: .75
+    }
+
+    .footer__logo:focus-visible {
+      outline: 2px solid var(--orange);
+      outline-offset: 4px
+    }
+
+    .footer__logo img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain
+    }
+
+    .footer__copy {
+      font-size: 20px;
+      font-weight: 700;
+      line-height: 1.6;
+      margin-top: 20px
+    }
+
+    .company h2 {
+      font-size: 17px;
+      font-weight: 700;
+      padding-bottom: 12px;
+      border-bottom: 1px solid #4A4A4A
+    }
+
+    .company dl div {
+      display: flex;
+      flex-direction: column;
+      gap: 2px;
+      padding: 14px 0;
+      border-bottom: 1px solid #4A4A4A;
+      font-size: 13px
+    }
+
+    .company dt {
+      color: #BBB
+    }
+
+    .company dd {
+      line-height: 1.8
+    }
+
+    .footer__bottom {
+      text-align: center;
+      font-size: 12px;
+      color: #AAA;
+      margin-top: 40px;
+      padding-top: 24px;
+      border-top: 1px solid #4A4A4A
+    }
+
+    @media (min-width:960px) {
+      .footer {
+        padding: 80px 0 40px
+      }
+
+      .footer__grid {
+        display: grid;
+        grid-template-columns: 440px minmax(0, 1fr);
+        gap: 0
+      }
+
+      .footer__copy {
+        font-size: 24px;
+        margin-top: 32px
+      }
+
+      .company dl div {
+        flex-direction: row;
+        gap: 24px;
+        font-size: 14px
+      }
+
+      .company dt {
+        width: 130px;
+        flex-shrink: 0
+      }
+
+      .footer__bottom {
+        margin-top: 56px
+      }
+    }
+
+    /* ---------- SP固定CTA ---------- */
+    .fixed-cta {
+      position: fixed;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      z-index: 40;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 8px;
+      padding: 12px 12px calc(12px + env(safe-area-inset-bottom));
+      background: rgba(255, 255, 255, .96);
+      box-shadow: 0 -4px 16px rgba(0, 0, 0, .08);
+      transition: transform .25s
+    }
+
+    .fixed-cta .btn {
+      min-height: 49px;
+      padding: 0 6px;
+      font-size: 13px;
+      box-shadow: none
+    }
+
+    .fixed-cta.is-hidden {
+      transform: translateY(110%)
+    }
+
+    @media (min-width:960px) {
+      .fixed-cta {
+        display: none
+      }
+    }
+
+
+    /* =========================================================
+   SP：MOC忠実版（959px以下のみ）
+   ========================================================= */
+    .sp-moc-only {
+      display: none
+    }
+
+    .doc-ico {
+      display: none;
+      flex-shrink: 0
+    }
+
+    @media (max-width:959px) {
+      .spmoc .sp-moc-only {
+        display: block
+      }
+
+      .spmoc .pc-moc-only {
+        display: none
+      }
+
+      .spmoc .doc-ico {
+        display: block
+      }
+
+      /* 見出し：左寄せ・英字ラベルなし・補助見出しは上 */
+      .spmoc .sec-head {
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 24px
+      }
+
+      .spmoc .sec-head__en {
+        display: none
+      }
+
+      .spmoc .sec-head__ja {
+        font-size: 24px;
+        margin-top: 0
+      }
+
+      .spmoc .sec-head__rule {
+        margin: 10px 0 0
+      }
+
+      .spmoc .sec-head__lead {
+        order: -1;
+        margin: 0 0 6px;
+        font-size: 12px;
+        font-weight: 700;
+        color: var(--ink-2)
+      }
+
+      .spmoc #trial .sec-head__lead,
+      .spmoc #contact .sec-head__lead {
+        color: var(--orange)
+      }
+
+      .spmoc #service .sec-head__lead {
+        order: 0;
+        margin: 16px 0 0;
+        font-size: 14px;
+        font-weight: 400;
+        color: var(--ink-2)
+      }
+
+      .spmoc #service .sec-head__rule,
+      .spmoc #plans .sec-head__rule,
+      .spmoc #contact .sec-head__rule {
+        display: none
+      }
+
+      .spmoc #problem .sec-head {
+        text-align: center;
+        align-items: center
+      }
+
+      .spmoc #problem .sec-head__rule {
+        width: 250px;
+        height: 2px;
+        margin: 10px auto 0
+      }
+
+      /* FV：写真なし・ボタン1つ */
+      .spmoc .fv {
+        background: #fff
+      }
+
+      .spmoc .fv::before {
+        display: none
+      }
+
+      .spmoc .fv__in {
+        padding-top: 12px;
+        padding-bottom: 32px
+      }
+
+      .spmoc .fv__lead {
+        font-weight: 700;
+        color: #666;
+        font-size: 15px
+      }
+
+      .spmoc .fv-doc {
+        display: none
+      }
+
+      .spmoc .fv-trial {
+        background: var(--orange);
+        color: #fff;
+        border-color: var(--orange);
+        min-height: 59px;
+        box-shadow: 0 0 0 5px rgba(233, 85, 0, .12)
+      }
+
+      .spmoc .fv-trial,
+      .spmoc .cta-pair .btn--fill,
+      .spmoc .trial-cta .btn {
+        justify-content: center
+      }
+
+      /* お悩み */
+      .spmoc #problem {
+        background: #FAFAFA;
+        padding-top: 36px
+      }
+
+      .spmoc .problem {
+        background: #EAF4FB;
+        border: 0;
+        padding: 12px 16px 12px 10px
+      }
+
+      .spmoc .problem__ill {
+        background: transparent
+      }
+
+      .spmoc .solve p {
+        font-size: 15px
+      }
+
+      .spmoc .solve em {
+        color: inherit
+      }
+
+      /* サービス */
+      .spmoc .service {
+        background: #F5F6F7;
+        border: 1px solid #D6E6F2;
+        border-top: 4px solid var(--orange)
+      }
+
+      .spmoc .service__no {
+        color: #DDE2E4
+      }
+
+      /* 導入事例：グレーのパネル */
+      .spmoc #cases {
+        background: #fff;
+        padding: 20px 0
+      }
+
+      .spmoc #cases>.inner {
+        background: #F5F6F7;
+        padding: 24px 16px 28px;
+        margin: 0 20px;
+        width: auto
+      }
+
+      .spmoc .stats {
+        gap: 10px 16px
+      }
+
+      .spmoc .stat {
+        background: none;
+        padding: 0;
+        text-align: left
+      }
+
+      .spmoc .stat__label {
+        font-size: 11px;
+        font-weight: 700;
+        color: var(--ink-2)
+      }
+
+      .spmoc .stat__num {
+        font-size: 20px;
+        margin-top: 0
+      }
+
+      .spmoc .stat__num small {
+        font-size: 12px
+      }
+
+      .spmoc .cases {
+        margin-top: 16px;
+        gap: 14px
+      }
+
+      .spmoc .case {
+        padding: 14px
+      }
+
+      .spmoc .case .tag {
+        background: none;
+        padding: 0;
+        color: var(--ink-2)
+      }
+
+      .spmoc .case h3 {
+        color: var(--orange);
+        font-size: 17px;
+        margin-top: 4px
+      }
+
+      .spmoc .others {
+        background: none;
+        padding: 0;
+        margin-top: 20px
+      }
+
+      .spmoc .others h3 {
+        font-size: 20px
+      }
+
+      .spmoc .others li::before {
+        width: 4px;
+        height: 4px;
+        background: var(--ink-2);
+        left: 4px;
+        top: .75em
+      }
+
+      /* 料金プラン */
+      .spmoc .plan {
+        background: #F5F6F7;
+        border: 0;
+        padding: 20px 18px
+      }
+
+      .spmoc .plan--rec {
+        border: 2px solid var(--orange);
+        padding-top: 52px;
+        box-shadow: none
+      }
+
+      .spmoc .plan__badge {
+        height: 24px;
+        font-size: 13px;
+        border-radius: 0
+      }
+
+      .spmoc .plan h3 {
+        font-size: 18px;
+        line-height: 1.4
+      }
+
+      .spmoc .plan__lead {
+        border: 0;
+        padding-bottom: 0;
+        margin-top: 6px;
+        font-size: 12px
+      }
+
+      .spmoc .plan__label {
+        display: none
+      }
+
+      .spmoc .plan__list .check::before {
+        content: "•";
+        color: var(--ink)
+      }
+
+      .spmoc .plan__for {
+        background: none;
+        padding: 0;
+        margin-top: 14px
+      }
+
+      .spmoc .cta-pair {
+        margin-top: 20px
+      }
+
+      /* お試しプラン */
+      .spmoc #trial .inner {
+        display: flex;
+        flex-direction: column;
+        gap: 16px
+      }
+
+      .spmoc #trial .sec-head {
+        margin-bottom: 4px
+      }
+
+      .spmoc .trial-top {
+        display: contents
+      }
+
+      .spmoc .trial-price {
+        order: 1
+      }
+
+      .spmoc .trial-period {
+        order: 2
+      }
+
+      .spmoc .trial-can {
+        order: 3
+      }
+
+      .spmoc .trial-cards {
+        order: 4;
+        margin-top: 0
+      }
+
+      .spmoc .bonus {
+        order: 5;
+        margin-top: 0
+      }
+
+      .spmoc .notes {
+        order: 6;
+        margin-top: 4px
+      }
+
+      .spmoc .trial-cta {
+        order: 7;
+        margin-top: 4px
+      }
+
+      .spmoc .trial-price {
+        background: #fff;
+        color: var(--ink);
+        border: 1px solid var(--orange);
+        border-radius: 6px;
+        padding: 18px 16px
+      }
+
+      .spmoc .trial-price__sub {
+        font-size: 13px
+      }
+
+      .spmoc .trial-price__main {
+        color: var(--orange);
+        font-size: 30px
+      }
+
+      .spmoc .trial-price__main small,
+      .spmoc .trial-price__main span {
+        font-size: 14px;
+        font-weight: 700;
+        opacity: 1
+      }
+
+      .spmoc .trial-price__pill {
+        background: none;
+        color: var(--ink-2);
+        font-weight: 400;
+        padding: 0;
+        margin-top: 2px
+      }
+
+      .spmoc .trial-can {
+        background: #fff;
+        border-radius: 6px;
+        padding: 20px
+      }
+
+      .spmoc .trial-can h3 {
+        font-size: 16px
+      }
+
+      .spmoc .trial-period h3 {
+        font-size: 16px
+      }
+
+      .spmoc .trial-period p {
+        font-size: 14px;
+        margin-top: 10px
+      }
+
+      .spmoc .trial-card {
+        padding: 20px;
+        border-radius: 6px
+      }
+
+      .spmoc .trial-card h3 {
+        font-size: 16px
+      }
+
+      .spmoc .week {
+        display: flex;
+        flex-direction: row;
+        gap: 12px;
+        align-items: flex-start
+      }
+
+      .spmoc .week dt {
+        flex-shrink: 0;
+        background: var(--orange);
+        color: #fff;
+        font-size: 12px;
+        padding: 2px 8px;
+        border-radius: 3px;
+        margin-top: 2px
+      }
+
+      .spmoc .week dd {
+        margin-top: 0;
+        font-size: 13px
+      }
+
+      .spmoc .deliverable {
+        background: none;
+        padding: 0 0 0 22px;
+        position: relative
+      }
+
+      .spmoc .deliverable::before {
+        content: "";
+        position: absolute;
+        left: 0;
+        top: .45em;
+        width: 10px;
+        height: 10px;
+        background: var(--orange)
+      }
+
+      .spmoc .deliverable b {
+        font-weight: 400;
+        font-size: 14px
+      }
+
+      .spmoc .deliverable span {
+        margin-top: 0;
+        font-size: 13px
+      }
+
+      .spmoc .bonus {
+        background: var(--orange);
+        border: 0;
+        color: #fff;
+        border-radius: 6px
+      }
+
+      .spmoc .bonus__tag {
+        background: none;
+        padding: 0;
+        font-size: 15px
+      }
+
+      .spmoc .bonus p {
+        color: #fff;
+        font-weight: 400
+      }
+
+      /* FAQ */
+      .spmoc #faq {
+        background: #F5F6F7
+      }
+
+      .spmoc .faq {
+        background: #fff;
+        border-top: 1px solid var(--line);
+        border-radius: 0
+      }
+
+      .spmoc .faq__q {
+        font-size: 13px;
+        padding: 10px 16px
+      }
+
+      .spmoc .faq__mark {
+        font-size: 22px
+      }
+
+      /* お問い合わせ */
+      .spmoc #contact {
+        background: #fff
+      }
+
+      .spmoc .learn {
+        border: 1px solid var(--line)
+      }
+
+      .spmoc .form-card {
+        background: #F1ECFA;
+        padding: 8px 0 12px
+      }
+
+      /* フッター：白背景・会社概要→コピー→ロゴ */
+      .spmoc .footer {
+        background: #fff;
+        color: var(--ink);
+        padding: 32px 0 110px
+      }
+
+      .spmoc .footer__grid {
+        flex-direction: column-reverse;
+        gap: 28px
+      }
+
+      .spmoc .company h2 {
+        color: var(--ink);
+        font-size: 20px;
+        border-bottom: 0;
+        padding-bottom: 0
+      }
+
+      .spmoc .company h2::after {
+        content: "";
+        display: block;
+        width: 32px;
+        height: 3px;
+        background: var(--orange);
+        margin: 8px 0 12px
+      }
+
+      .spmoc .company dl {
+        border-top: 1px solid var(--line)
+      }
+
+      .spmoc .company dl div {
+        flex-direction: row;
+        gap: 16px;
+        border-bottom: 1px solid var(--line)
+      }
+
+      .spmoc .company dt {
+        width: 72px;
+        flex-shrink: 0;
+        color: var(--ink);
+        font-weight: 700
+      }
+
+      .spmoc .company dd {
+        color: var(--ink-2)
+      }
+
+      .spmoc .footer__copy {
+        font-size: 17px;
+        margin: 0 0 14px
+      }
+
+      .spmoc .footer__grid>div:first-child {
+        display: flex;
+        flex-direction: column-reverse
+      }
+
+      .spmoc .footer__bottom {
+        border-top: 0;
+        color: var(--ink-3);
+        margin-top: 20px
+      }
+    }
+
+    @media (prefers-reduced-motion:reduce) {
+      html {
+        scroll-behavior: auto
+      }
+
+      .drawer,
+      .fixed-cta {
+        transition: none
+      }
+    }
+  </style>
+</head>
+
+<body class="spmoc">
+
+  <!-- =============== ヘッダー =============== -->
+  <header class="header">
+    <div class="header__in">
+      <a class="logo" href="#top"><img src="images/logo.png" alt="sanzen engine（サンゼンエンジン）" width="120" height="34"
+          onerror="var t=document.createElement('span');t.className='logo-text';t.innerHTML='3000<small>sanzen engine</small>';this.replaceWith(t)"></a>
+      <nav class="gnav" aria-label="メインメニュー">
+        <ul class="gnav__list">
+          <li><a href="#service">サービス</a></li>
+          <li><a href="#cases">導入事例</a></li>
+          <li><a href="#plans">プラン</a></li>
+          <li><a href="#trial">お試しプラン</a></li>
+          <li><a href="#faq">よくある質問</a></li>
+          <li><a href="#company">会社概要</a></li>
+        </ul>
+        <div class="gnav__cta">
+          <a class="btn btn--line" href="#trial">お試しプラン</a>
+          <a class="btn btn--fill" href="#contact">実績資料を無料で受け取る</a>
+        </div>
+      </nav>
+      <button class="menu-btn" type="button" aria-label="メニューを開く" aria-controls="drawer"
+        aria-expanded="false"><span></span><span></span><span></span></button>
+    </div>
+  </header>
+
+  <!-- ハンバーガーメニュー（SP） -->
+  <div class="drawer" id="drawer" aria-hidden="true">
+    <div class="drawer__head">
+      <a class="logo" href="#top"><img src="images/logo.png" alt="sanzen engine（サンゼンエンジン）" width="92" height="26"
+          onerror="var t=document.createElement('span');t.className='logo-text';t.innerHTML='3000<small>sanzen engine</small>';this.replaceWith(t)"></a>
+      <button class="drawer__close" type="button" aria-label="メニューを閉じる">✕</button>
+    </div>
+    <nav class="drawer__list" aria-label="メニュー">
+      <a href="#service">サービス<span>→</span></a>
+      <a href="#cases">導入事例<span>→</span></a>
+      <a href="#plans">プラン<span>→</span></a>
+      <a href="#trial">お試しプラン<span>→</span></a>
+      <a href="#faq">よくある質問<span>→</span></a>
+      <a href="#contact">資料請求・お問い合わせ<span>→</span></a>
+      <a href="#company">会社概要<span>→</span></a>
+    </nav>
+    <div class="drawer__cta">
+      <a class="btn btn--fill btn--block" href="#contact">実績資料を無料で受け取る</a>
+      <a class="btn btn--line btn--block" href="#trial">今だけのお試しプラン</a>
+    </div>
+  </div>
+
+  <main id="top">
+
+    <!-- =============== FV =============== -->
+    <section class="fv">
+      <div class="inner fv__in">
+        <h1>地域の魅力を、<br>届く力に。</h1>
+        <p class="fv__lead">魅力的な地域やモノが、<br class="sp">うまく伝わらない・知ってもらえない。<br>そんな地域の課題を、<br
+            class="sp">見つける・整える・動かし続ける会社です。</p>
+        <div class="fv__cta">
+          <a class="btn btn--line fv-trial" href="#trial"><svg class="doc-ico" width="20" height="20"
+              viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+              stroke-linejoin="round" aria-hidden="true">
+              <path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z" />
+              <path d="M14 3v5h5" />
+              <path d="M9 13h6M9 17h6" />
+            </svg>今だけのお試しプラン<span class="arrow" aria-hidden="true">→</span></a>
+          <a class="btn btn--fill fv-doc" href="#contact">実績資料を無料で受け取る<span class="arrow"
+              aria-hidden="true">→</span></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- =============== お悩み =============== -->
+    <section class="sec sec--beige" id="problem">
+      <div class="inner">
+        <div class="sec-head">
+          <span class="sec-head__en">PROBLEM</span>
+          <h2 class="sec-head__ja">こんなお悩み、<br class="sp">ありませんか？</h2>
+          <span class="sec-head__rule"></span>
+        </div>
+        <div class="problems">
+          <article class="problem">
+            <div class="problem__ill"><img src="images/problem-01.png" alt="" onerror="this.style.display='none'"></div>
+            <div>
+              <h3>発信がバラバラ</h3>
+              <p>SNS・HP・パンフレット…<br>それぞれで発信して統一感がない。</p>
+            </div>
+          </article>
+          <article class="problem">
+            <div class="problem__ill"><img src="images/problem-02.png" alt="" onerror="this.style.display='none'"></div>
+            <div>
+              <h3>魅力を言葉にできない</h3>
+              <p>地域のよさはたくさんあるのに、<br>うまく伝えられない。</p>
+            </div>
+          </article>
+          <article class="problem">
+            <div class="problem__ill"><img src="images/problem-03.png" alt="" onerror="this.style.display='none'"></div>
+            <div>
+              <h3>担当者だけでは続かない</h3>
+              <p>日々の業務で手が回らず、<br>発信を継続できない。</p>
+            </div>
+          </article>
+        </div>
+        <div class="solve">
+          <div class="solve__tri" aria-hidden="true"></div>
+          <p>その課題、<em>発信の土台</em>から<br class="sp">整理します。</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- =============== サービス =============== -->
+    <section class="sec" id="service">
+      <div class="inner">
+        <div class="sec-head">
+          <span class="sec-head__en">SERVICE</span>
+          <h2 class="sec-head__ja">サンゼンエンジンに<br class="sp">任せられること</h2>
+          <span class="sec-head__rule"></span>
+          <p class="sec-head__lead">「見つける・整える・動かし続ける」の3ステップで、<br class="pc">地域や事業の魅力整理から、実際に届け、改善を続けるところまで一気通貫でサポートします。
+          </p>
+        </div>
+        <div class="services">
+          <article class="service">
+            <div class="service__label"><span class="service__tag">BRAND｜見つける</span><span class="service__no">01</span>
+            </div>
+            <h3>魅力の発掘・言語化</h3>
+            <p class="service__text">ヒアリングや現地取材を通して、地域ならではの強みと選ばれる理由を整理します。</p>
+            <ul class="service__list">
+              <li class="check">現状・競合分析</li>
+              <li class="check">ブランドコンセプト</li>
+              <li class="check">メッセージ設計</li>
+            </ul>
+          </article>
+          <article class="service">
+            <div class="service__label"><span class="service__tag">DESIGN｜整える</span><span class="service__no">02</span>
+            </div>
+            <h3>発信の設計・制作</h3>
+            <p class="service__text">媒体ごとに分断された発信をつなぎ、同じ価値が伝わる表現へ整えます。</p>
+            <ul class="service__list">
+              <li class="check">Web・LP制作</li>
+              <li class="check">パンフレット・広告</li>
+              <li class="check">写真・動画・記事</li>
+            </ul>
+          </article>
+          <article class="service">
+            <div class="service__label"><span class="service__tag">GROWTH｜動かし続ける</span><span
+                class="service__no">03</span></div>
+            <h3>運用・改善の伴走</h3>
+            <p class="service__text">つくって終わりにせず、反応を見ながら発信と導線を育てていきます。</p>
+            <ul class="service__list">
+              <li class="check">SNS・広告運用</li>
+              <li class="check">効果測定</li>
+              <li class="check">改善提案・定例支援</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- =============== 導入事例 =============== -->
+    <section class="sec sec--beige" id="cases">
+      <div class="inner">
+        <div class="sec-head">
+          <span class="sec-head__en">WORKS</span>
+          <h2 class="sec-head__ja">導入事例</h2>
+          <span class="sec-head__rule"></span>
+          <p class="sec-head__lead">一気通貫した支援で、成果に繋げます</p>
+        </div>
+        <div class="stats">
+          <div class="stat">
+            <p class="stat__label">支援地域</p>
+            <p class="stat__num">14<small>地域</small></p>
+            <p class="stat__note pc">海外を含む</p>
+          </div>
+          <div class="stat">
+            <p class="stat__label">これまでの取り組み</p>
+            <p class="stat__num">38<small>件以上</small></p>
+          </div>
+          <div class="stat">
+            <p class="stat__label">写真・映像制作</p>
+            <p class="stat__num">250<small>件以上</small></p>
+          </div>
+          <div class="stat">
+            <p class="stat__label">SNS／Web改善</p>
+            <p class="stat__num"><small>最大</small>200<small>%</small></p>
+            <p class="stat__note pc">CVR改善（当社支援事例の最大値）</p>
+          </div>
+        </div>
+        <p class="stats-note">※支援地域は海外を含みます。<br>※CVR改善は当社支援事例における最大値です。</p>
+
+        <div class="cases">
+          <article class="case"><span class="tag">自治体｜国際誘致イベント</span>
+            <h3>57カ国・約500名が参加（2025年度）</h3>
+            <p>企画設計から告知、当日運営までを一貫して支援</p>
+          </article>
+          <article class="case"><span class="tag">自然アクティビティ事業者</span>
+            <h3>写真の差し替えだけでCVR改善／問い合わせ数増加</h3>
+            <p>サイトリニューアル・クリエイティブディレクション</p>
+          </article>
+          <article class="case"><span class="tag">食品製造・販売</span>
+            <h3>SNS×定期イベントで来店促進</h3>
+            <p>店舗の運用改善とWeb集客支援で新規客の来店が増加</p>
+          </article>
+          <article class="case"><span class="tag">住宅会社</span>
+            <h3>ブランディングとパンフレット刷新</h3>
+            <p>ブランドの軸づくりから販促ツールまで一貫して支援</p>
+          </article>
+        </div>
+
+        <div class="others">
+          <h3>そのほかの支援領域</h3>
+          <ul>
+            <li>飲食店のブランドイメージ向上（制服・のれんなどのクリエイティブ制作）</li>
+            <li>採用力強化（企業イメージ写真の撮影、コーポレートサイトのリニューアル）</li>
+            <li>SNS運用（企画・投稿制作から分析・改善まで一貫して担当）</li>
+            <li>マーケティング支援（新規事業の販売戦略設計から広告運用・営業まで）</li>
+            <li>調査（新規事業の立ち上げに伴う市場調査・リサーチ）</li>
+            <li>広告運用（インバウンド需要獲得に向けたWeb広告運用・集客支援）</li>
+            <li>営業支援（日本市場への進出を目指す海外企業の営業活動・商談通訳）</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- =============== 料金プラン =============== -->
+    <section class="sec" id="plans">
+      <div class="inner">
+        <div class="sec-head">
+          <span class="sec-head__en">PLAN</span>
+          <h2 class="sec-head__ja">プラン</h2>
+          <span class="sec-head__rule"></span>
+          <p class="sec-head__lead">課題に合わせて選べる3つの支援プラン</p>
+        </div>
+        <div class="plans">
+          <article class="plan plan--rec">
+            <span class="plan__badge">おすすめ</span>
+            <h3>地域魅力の<br>再編集・世界観構築プラン</h3>
+            <p class="plan__lead">地域の魅力を言語化し、選ばれる世界観を整えます</p>
+            <p class="plan__label">内容</p>
+            <ul class="plan__list">
+              <li class="check">地域資源の棚卸し</li>
+              <li class="check">ブランドストーリー構築</li>
+              <li class="check">写真・映像の世界観統一</li>
+              <li class="check">Web・パンフレット・SNSビジュアル最適化</li>
+              <li class="check">地域の体験価値の再定義</li>
+            </ul>
+            <div class="plan__for">
+              <p class="plan__for-title">おすすめ対象</p>
+              <p>まず世界観を整えてブランドの軸を作りたい</p>
+              <p>ブランドを再編したい地域企業・観光協会</p>
+            </div>
+          </article>
+          <article class="plan">
+            <h3>地域プロモーション<br>総合支援プラン</h3>
+            <p class="plan__lead">戦略から制作・運用まで、まるごと伴走します</p>
+            <p class="plan__label">内容</p>
+            <ul class="plan__list">
+              <li class="check">現状分析・課題整理</li>
+              <li class="check">ターゲット分析・プロモーション戦略構築</li>
+              <li class="check">SNS・Web改善</li>
+              <li class="check">写真・映像などクリエイティブ制作</li>
+              <li class="check">プロモーション企画・実行</li>
+              <li class="check">効果測定・改善提案</li>
+            </ul>
+            <div class="plan__for">
+              <p class="plan__for-title">おすすめ対象</p>
+              <p>戦略から制作・実行までまとめて任せたい</p>
+              <p>自治体／観光協会／DMO／地域企業</p>
+            </div>
+          </article>
+          <article class="plan">
+            <h3>SNS・Web・広告の<br>プロモーション支援プラン<br>（月額）</h3>
+            <p class="plan__lead">発信と導線を一本化し、継続的に伸ばします</p>
+            <p class="plan__label">内容</p>
+            <ul class="plan__list">
+              <li class="check">SNSディレクション・運用方針策定</li>
+              <li class="check">投稿企画・ショート動画制作</li>
+              <li class="check">SNS→サイト→体験予約までの導線最適化</li>
+              <li class="check">月次レポート・改善提案</li>
+              <li class="check">若年層向けコミュニケーションの最適化</li>
+            </ul>
+            <div class="plan__for">
+              <p class="plan__for-title">おすすめ対象</p>
+              <p>発信と導線を整えて改善を回したい</p>
+              <p>SNSを強化したい地域企業／観光事業者／自治体</p>
+            </div>
+          </article>
+        </div>
+        <p class="plans-note">※目安料金は実績資料に掲載しています（いずれも税別）。<br class="sp">　※SNS・Web・広告のプロモーション支援プラン（月額）は6ヶ月からのご契約です。</p>
+        <div class="cta-pair">
+          <a class="btn btn--fill" href="#contact"><svg class="doc-ico" width="20" height="20" viewBox="0 0 24 24"
+              fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+              aria-hidden="true">
+              <path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z" />
+              <path d="M14 3v5h5" />
+              <path d="M9 13h6M9 17h6" />
+            </svg>実績資料を無料で受け取る<span class="arrow" aria-hidden="true">→</span></a>
+          <a class="btn btn--line" href="#trial">今だけのお試しプラン<span class="arrow" aria-hidden="true">→</span></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- =============== お試しプラン =============== -->
+    <section class="sec sec--peach" id="trial">
+      <div class="inner">
+        <div class="sec-head">
+          <span class="sec-head__en">TRIAL</span>
+          <h2 class="sec-head__ja">今だけのお試しプラン</h2>
+          <span class="sec-head__rule"></span>
+          <p class="sec-head__lead">1ヶ月お試し｜売れる形づくり設計プラン</p>
+        </div>
+
+        <div class="trial-top">
+          <div class="trial-price">
+            <p class="trial-price__sub">15万円相当の内容を</p>
+            <p class="trial-price__main">5万円<small>（税別）</small><span>／1ヶ月</span></p>
+            <p><span class="trial-price__pill">オンラインで週1回×60分（計4回）</span></p>
+          </div>
+          <div class="trial-can">
+            <h3>このプランでできること</h3>
+            <ul>
+              <li class="check check--normal">現状整理（商品／顧客／価格／販路／発信／体制の棚卸し）</li>
+              <li class="check check--normal">「誰に・何を・どう売るか」の仮説整理</li>
+              <li class="check check--normal">商品の世界観（言葉・見せ方）の方向性整理</li>
+              <li class="check check--normal">販路と発信の優先順位づけ（最短で効く順に並べる）</li>
+              <li class="check check--normal">90日で回すPDCAの設計（週次タスク＋KPI）</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="trial-card sp-moc-only trial-period">
+          <h3>期間・打ち合わせ</h3>
+          <p>1ヶ月／オンラインで週1回×60分（計4回）</p>
+        </div>
+        <div class="trial-cards">
+          <div class="trial-card">
+            <h3>進め方（4週間）</h3>
+            <dl class="weeks">
+              <div class="week">
+                <dt>Week1</dt>
+                <dd>ゴール整理＋現状棚卸し（素材・情報の回収）</dd>
+              </div>
+              <div class="week">
+                <dt>Week2</dt>
+                <dd>「誰に・何を・どう売るか」仮説整理／世界観の方向性</dd>
+              </div>
+              <div class="week">
+                <dt>Week3</dt>
+                <dd>販路×発信の優先順位決定／導線の改善ポイント整理</dd>
+              </div>
+              <div class="week">
+                <dt>Week4</dt>
+                <dd>90日計画・KPI確定／次の打ち手提案</dd>
+              </div>
+            </dl>
+          </div>
+          <div class="trial-card">
+            <h3>納品物</h3>
+            <div class="deliverables">
+              <div class="deliverable"><b>売れる形づくり設計シート（1枚）</b><span>ターゲット／提供価値／訴求軸／世界観の方向性／販路優先順位</span></div>
+              <div class="deliverable"><b>90日アクションプラン＆KPIシート（1枚）</b><span>週次タスク／担当／期限／計測指標（先行KPI中心）</span></div>
+            </div>
+          </div>
+          <div class="trial-card">
+            <h3>おすすめ対象</h3>
+            <ul>
+              <li class="check check--normal">何から始めるべきか分からない</li>
+              <li class="check check--normal">“世界観”が定まらず、発信が刺さらない</li>
+              <li class="check check--normal">SNSを頑張っているが問い合わせにつながらない</li>
+            </ul>
+            <p class="trial-card__note">※制作・運用代行ではなく「方針決定と実行の土台づくり」に特化した1ヶ月プランです。</p>
+          </div>
+        </div>
+
+        <div class="bonus">
+          <span class="bonus__tag">継続特典</span>
+          <p class="pc-moc-only">お試し終了後30日以内に各プランをご契約の場合、<em>5万円</em>を契約金額から差し引きます。</p>
+          <p class="sp-moc-only">1ヶ月お試しプラン終了後30日以内に、世界観構築プラン／総合支援プラン／プロモーション支援プラン（月額）のいずれかをご契約の場合、5万円を契約金額から差し引きます。</p>
+        </div>
+
+        <div class="notes">
+          <h4>注意事項</h4>
+          <ul>
+            <li>・設計・整理・計画策定までが対象です。制作（撮影／デザイン／動画編集）、SNS運用代行、広告運用、Web改修・LP制作、記事執筆、出店交渉等は含みません（別途お見積り）。</li>
+            <li>・対象は原則として、主要な商品・サービス1つです（複数の場合は優先順位づけのみ対応）。</li>
+            <li>・打ち合わせ以外のご相談は、週1回のまとめ返信（テキスト）が基本です。決裁者（意思決定できる方）のご参加を推奨します。</li>
+            <li>・継続特典は終了後30日以内のご契約が対象／1社1回まで／他の割引との併用不可。現金での返金ではなく、請求額からの控除となります。</li>
+          </ul>
+        </div>
+
+        <div class="trial-cta">
+          <a class="btn btn--fill btn--block-sp" href="#contact"><svg class="doc-ico" width="20" height="20"
+              viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+              stroke-linejoin="round" aria-hidden="true">
+              <path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z" />
+              <path d="M14 3v5h5" />
+              <path d="M9 13h6M9 17h6" />
+            </svg>お試しプランに申し込む<span class="arrow" aria-hidden="true">→</span></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- =============== FAQ =============== -->
+    <section class="sec" id="faq">
+      <div class="inner">
+        <div class="sec-head">
+          <span class="sec-head__en">FAQ</span>
+          <h2 class="sec-head__ja">よくある質問</h2>
+          <span class="sec-head__rule"></span>
+        </div>
+        <div class="faqs">
+          <div class="faq">
+            <button class="faq__q" type="button" aria-expanded="false"><span class="faq__mark">Q</span><span
+                class="faq__qtext">何から依頼すればよいかわかりません。</span><span class="faq__icon" aria-hidden="true">＋</span></button>
+            <div class="faq__a"><span class="faq__mark">A</span>
+              <p>最初の相談で現状と目標を伺い、優先順位を一緒に整理します。課題が言葉になっていない段階からご相談いただけます。</p>
+            </div>
+          </div>
+          <div class="faq">
+            <button class="faq__q" type="button" aria-expanded="false"><span class="faq__mark">Q</span><span
+                class="faq__qtext">専任の広報担当者がいなくても進められますか？</span><span class="faq__icon"
+                aria-hidden="true">＋</span></button>
+            <div class="faq__a"><span class="faq__mark">A</span>
+              <p>はい。担当者の負担が増えない進行方法と、継続できる運用体制まで含めて設計します。</p>
+            </div>
+          </div>
+          <div class="faq">
+            <button class="faq__q" type="button" aria-expanded="false"><span class="faq__mark">Q</span><span
+                class="faq__qtext">自治体や観光協会のプロジェクトにも対応できますか？</span><span class="faq__icon"
+                aria-hidden="true">＋</span></button>
+            <div class="faq__a"><span class="faq__mark">A</span>
+              <p>複数の関係者が参加する地域プロジェクトを想定し、合意形成に使える言葉や資料から整えます。</p>
+            </div>
+          </div>
+          <div class="faq">
+            <button class="faq__q" type="button" aria-expanded="false"><span class="faq__mark">Q</span><span
+                class="faq__qtext">制作や運用だけを部分的に依頼できますか？</span><span class="faq__icon"
+                aria-hidden="true">＋</span></button>
+            <div class="faq__a"><span class="faq__mark">A</span>
+              <p>目的と現在の体制に合わせて、ブランド整理・制作・広告・運用から必要な範囲を選べます。</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =============== 資料請求・お問い合わせ =============== -->
+    <section class="sec sec--beige" id="contact">
+      <div class="inner">
+        <div class="sec-head">
+          <span class="sec-head__en">CONTACT</span>
+          <h2 class="sec-head__ja">資料請求・お問い合わせ</h2>
+          <span class="sec-head__rule"></span>
+          <p class="sec-head__lead">資料請求もご相談も、こちらから</p>
+        </div>
+
+        <div class="contact-grid">
+          <aside class="learn">
+            <p class="learn__head"><span class="free">無料</span>実績資料でわかること</p>
+            <ol>
+              <li><span class="learn__no">01</span>
+                <div><b>魅力の見つけ方</b><span>地域の強みを言語化し、選ばれる理由をつくる。</span></div>
+              </li>
+              <li><span class="learn__no">02</span>
+                <div><b>発信の整え方</b><span>ターゲットへ届くメッセージ・媒体・体制を整理。</span></div>
+              </li>
+              <li><span class="learn__no">03</span>
+                <div><b>地域プロジェクトの実績例</b><span>実際の支援事例から、取り組みのイメージがつかめる。</span></div>
+              </li>
+              <li><span class="learn__no">04</span>
+                <div><b>料金プランの目安</b><span>3つの支援プランの内容と目安料金がわかる。</span></div>
+              </li>
+            </ol>
+          </aside>
+
+          <div class="form-card">
+            <!-- Googleフォーム埋め込み -->
+            <iframe class="gform"
+              src="https://docs.google.com/forms/d/e/1FAIpQLSfUHlcsIjtkG0WnJZKhJQI4IlnQ57ieoFvh-MNAV7fRLZ4ysQ/viewform?embedded=true"
+              title="資料請求・お問い合わせフォーム" loading="lazy">読み込んでいます…</iframe>
+            <p class="form-note">フォームが表示されない場合は<a
+                href="https://docs.google.com/forms/d/e/1FAIpQLSfUHlcsIjtkG0WnJZKhJQI4IlnQ57ieoFvh-MNAV7fRLZ4ysQ/viewform"
+                target="_blank" rel="noopener">こちら</a>から開いてください。</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- =============== フッター =============== -->
+  <footer class="footer" id="company">
+    <div class="inner">
+      <div class="footer__grid">
+        <div>
+          <a class="footer__logo" href="https://sanzen-tabi.com/company" target="_blank" rel="noopener"
+            aria-label="サンゼンエンジン 会社情報（新しいタブで開きます）"><img src="images/logo.png" alt="sanzen engine（サンゼンエンジン）" width="120"
+              height="34"
+              onerror="var t=document.createElement('span');t.className='logo-text';t.innerHTML='3000<small>sanzen engine</small>';this.replaceWith(t)"></a>
+          <p class="footer__copy">地域の力が、<br>日本の未来を変える。</p>
+        </div>
+        <div class="company">
+          <h2>会社概要</h2>
+          <dl>
+            <div>
+              <dt>会社名</dt>
+              <dd>サンゼンエンジン合同会社（Sanzen Engine LLC）</dd>
+            </div>
+            <div>
+              <dt>代表</dt>
+              <dd>大菅 康平</dd>
+            </div>
+            <div>
+              <dt>所在地</dt>
+              <dd>東京都渋谷区道玄坂1丁目10番8号 渋谷道玄坂東急ビル2F−C</dd>
+            </div>
+            <div>
+              <dt>設立</dt>
+              <dd>2024年</dd>
+            </div>
+            <div>
+              <dt>事業内容</dt>
+              <dd>地域ブランドづくり事業／プロモーション戦略設計サポート／写真・映像制作／SNS・Web改善、デザイン制作／地域イベント企画サポート</dd>
+            </div>
+            <div>
+              <dt>連携実績</dt>
+              <dd>自治体／観光協会／DMO／地域事業者／民間企業 ほか</dd>
+            </div>
+          </dl>
+        </div>
+      </div>
+      <p class="footer__bottom">© Sanzen Engine LLC</p>
+    </div>
+  </footer>
+
+  <!-- SP固定CTA -->
+  <div class="fixed-cta" id="fixedCta">
+    <a class="btn btn--line" href="#trial">お試しプラン</a>
+    <a class="btn btn--fill" href="#contact">実績資料を無料で受け取る</a>
+  </div>
+
+
+  <script>
+    (function () {
+      /* ---- ハンバーガーメニュー ---- */
+      var menuBtn = document.querySelector('.menu-btn');
+      var drawer = document.getElementById('drawer');
+      function setMenu(open) {
+        drawer.classList.toggle('is-open', open);
+        drawer.setAttribute('aria-hidden', String(!open));
+        menuBtn.setAttribute('aria-expanded', String(open));
+        document.body.style.overflow = open ? 'hidden' : '';
+      }
+      menuBtn.addEventListener('click', function () { setMenu(true); });
+      drawer.querySelector('.drawer__close').addEventListener('click', function () { setMenu(false); });
+      drawer.querySelectorAll('a').forEach(function (a) { a.addEventListener('click', function () { setMenu(false); }); });
+      document.addEventListener('keydown', function (e) { if (e.key === 'Escape') setMenu(false); });
+
+      /* ---- FAQ アコーディオン（複数同時展開可） ---- */
+      document.querySelectorAll('.faq__q').forEach(function (q) {
+        q.addEventListener('click', function () {
+          var item = q.parentElement;
+          var open = !item.classList.contains('is-open');
+          item.classList.toggle('is-open', open);
+          q.setAttribute('aria-expanded', String(open));
+          q.querySelector('.faq__icon').textContent = open ? '－' : '＋';
+        });
+      });
+
+      /* ---- SP固定CTA：お問い合わせ欄が見えている間は隠す ---- */
+      var fixed = document.getElementById('fixedCta');
+      var contact = document.getElementById('contact');
+      if ('IntersectionObserver' in window) {
+        new IntersectionObserver(function (es) {
+          es.forEach(function (e) { fixed.classList.toggle('is-hidden', e.isIntersecting); });
+        }, { threshold: 0.05 }).observe(contact);
+      }
+
+    })();
+  </script>
+</body>
+
+</html>
